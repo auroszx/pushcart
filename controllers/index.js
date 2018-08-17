@@ -1,5 +1,5 @@
 const express = require('express');
 let router = express.Router();
 
-router.use('/db',require('./route'));
+router.use('/data',require('./route'));
 module.exports = router;
